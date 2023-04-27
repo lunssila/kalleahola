@@ -5,12 +5,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: script/cibuild
+    name: script/cibuild-node
     steps:
       - uses: actions/checkout@v3
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.7
-          bundler-cache: true
       - name: test
-        run: script/cibuild
+        run: script/cibuild-node
