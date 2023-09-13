@@ -24,6 +24,14 @@ body {
 	text-align: center;
 }
 
+#nobg {
+	font: 14px/165% 'Monserrat', Geneva, Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	margin: 0; 	padding: 0; 
+	background: #010000;
+	text-align: center;
+}
+
 /* Links */
 a, a:visited {
 	text-decoration: none;
@@ -76,7 +84,7 @@ dd {
 img {
 	background: #1B1B1B;
    border: 1px solid #1B1B1B;
-	padding: 6px;
+	padding: 0px;
 }
 img.float-right {
   	margin: 5px 0px 10px 10px;  
@@ -207,6 +215,8 @@ input.button {
 	height: 370px;	
 	margin: 0; padding: 0;			
 }
+
+
 #header h1#logo-text a {
 	position: absolute;
 	margin: 0; padding: 0;
@@ -218,6 +228,19 @@ input.button {
 		
 	/* change the values of top and left to adjust the position of the logo*/
 	top: 300px; left: 25px;	
+}
+
+#header h1#logo-up a {
+	position: absolute;
+	margin: 0; padding: 0;
+	font:  50px 'Montserrat', Tahoma, Helvetica, Arial, Sans-serif;
+	letter-spacing: 2.7px;
+	color: #F8F8F8;
+	text-decoration: none;
+	text-transform: none;
+		
+	/* change the values of top and left to adjust the position of the logo*/
+	top: 10px; left: 25px;	
 }
 #header h1#logo-text a:hover {
 	background: none;	border: none;
