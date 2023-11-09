@@ -445,7 +445,7 @@ input.button {
 .postmeta a.comments { margin: 0 10px 0 5px;	}
 .postmeta a.readmore { margin: 0 10px 0 5px;	}
 
-.post-info { font-size: 14px; padding-top: 3px; margin-left: 5px; color: #eeeeee;	}
+.post-info { font-size: 14px; padding-top: 3px; margin-left: 0px; color: #eeeeee;	}
 .post-info a, .post-info a:visited { color: #fff; }
 
 /* alignment classes */
