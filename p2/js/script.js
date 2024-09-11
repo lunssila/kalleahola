@@ -125,7 +125,6 @@ function simp_loadAudio(elem) {
   simp_progress.parentNode.classList.add('simp-loading');
   simp_controls.querySelector('.simp-plause').disabled = true;
   simp_audio.querySelector('source').src = decodeBase64(elem.dataset.src);
-	alert(elem.dataset.src);
   simp_audio.load();
   
   simp_audio.volume = parseFloat(simp_v_num / 100); //based on valume input value
