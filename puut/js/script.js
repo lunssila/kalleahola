@@ -307,7 +307,7 @@ if (document.querySelector('#simp')) {
   var simp_a_url = simp_playlist.querySelectorAll('[data-src]');
   var simp_a_index = 0;
   var simp_isPlaying = false;
-  var simp_isNext = false; //auto play
+  var simp_isNext = true; //auto play
   var simp_isRandom = false; //play random
   var simp_isRanext = false; //check if before random starts, simp_isNext value is true
   var simp_isStream = false; //radio streaming
@@ -315,7 +315,7 @@ if (document.querySelector('#simp')) {
   var simp_config = ap_simp.dataset.config ? JSON.parse(ap_simp.dataset.config) : {
     shide_top: false, //show/hide album
     shide_btm: false, //show/hide playlist
-    auto_load: false //auto load audio file
+    auto_load: true //auto load audio file
   };
   
   var simp_elem = '';
