@@ -16,6 +16,7 @@ body{
    padding: 20px 10px;
    color: #fff;
    text-align: center;
+   font: 'Montserrat', Tahoma, Helvetica, Arial, Sans-serif;
 }
 .intro h1 {
 	position: center;
